@@ -1,0 +1,135 @@
+slug: starbucks-india-coffee
+company: Starbucks
+industry: Coffee & Retail
+target_market: India
+objective: Market Entry
+key_question: Should Starbucks deepen / accelerate entry into the Indian coffee & café market?
+assumptions:
+  data_vintage: "Illustrative 2024–2025 demo estimates"
+  note: "Figures are directional for portfolio demonstration, not client-grade research."
+market:
+  market_size_score: 78
+  growth_score: 88
+  competition_intensity: 55
+  demand_score: 86
+  underpenetrated:
+    - Tier-2 city premium café
+    - At-home premium beans / RTD
+  rationales:
+    market_size: "Large addressable out-of-home beverage spend with rising premiumization."
+    growth: "Café culture and premium coffee penetration still early vs global peers."
+    competition: "Strong local chains and quick-service alternatives; not fully saturated at premium."
+    demand: "Urban young professionals show rising willingness to pay for experience."
+competitors:
+  - name: Café Coffee Day
+    revenue_bn: 0.2
+    market_share_pct: 18
+    pricing_position: Mid
+    products: [Café, Packaged coffee]
+    geography: [India-wide]
+    customer_segment: Value / Mid
+    value_proposition: Accessible café network
+    strengths: [Store density, Brand familiarity]
+    weaknesses: [Premium perception, Experience consistency]
+    x_innovation: 35
+    y_premium: 40
+  - name: Third Wave Coffee
+    revenue_bn: 0.05
+    market_share_pct: 6
+    pricing_position: Premium
+    products: [Specialty café]
+    geography: [Metro India]
+    customer_segment: Premium / Early adopters
+    value_proposition: Specialty coffee experience
+    strengths: [Quality, Urban brand]
+    weaknesses: [Scale, Geographic reach]
+    x_innovation: 72
+    y_premium: 78
+  - name: Costa / Local premium
+    revenue_bn: 0.04
+    market_share_pct: 5
+    pricing_position: Premium
+    products: [Café]
+    geography: [Select metros]
+    customer_segment: Premium
+    value_proposition: International café brand
+    strengths: [Brand equity]
+    weaknesses: [Limited footprint]
+    x_innovation: 55
+    y_premium: 70
+  - name: Chaayos / local chai-café
+    revenue_bn: 0.08
+    market_share_pct: 10
+    pricing_position: Value-Mid
+    products: [Chai, Snacks, Café]
+    geography: [North & West India]
+    customer_segment: Value Seekers
+    value_proposition: Localized beverage occasions
+    strengths: [Local taste, Price]
+    weaknesses: [Premium coffee credibility]
+    x_innovation: 40
+    y_premium: 32
+competition_meta:
+  intensity_score: 55
+  whitespace_insight: "Mid-premium experiential café in Tier-2 cities remains relatively under-served versus metro density."
+  recommended_positioning: "Premium experience with selective localization — not pure price competition"
+segments:
+  - name: Premium Buyers
+    description: High-income urban professionals seeking brand and ambience
+    income_level: High
+    price_sensitivity: Low
+    brand_sensitivity: High
+    share_of_demand_pct: 28
+    attractiveness: 86
+  - name: Value Seekers
+    description: Price-aware consumers prioritizing convenience
+    income_level: Moderate
+    price_sensitivity: High
+    brand_sensitivity: Medium
+    share_of_demand_pct: 45
+    attractiveness: 58
+  - name: Early Adopters
+    description: Specialty coffee enthusiasts and experience seekers
+    income_level: Upper-mid
+    price_sensitivity: Medium
+    brand_sensitivity: High
+    share_of_demand_pct: 27
+    attractiveness: 80
+geography:
+  methodology_note: "Retail MAS weights population, income, store density gap, and consumer demand."
+  weights:
+    population: 0.2
+    income: 0.25
+    store_gap: 0.25
+    demand: 0.2
+    accessibility: 0.1
+  regions:
+    - region: Maharashtra
+      drivers: {population: 82, income: 80, store_gap: 55, demand: 85, accessibility: 88}
+    - region: Karnataka
+      drivers: {population: 70, income: 78, store_gap: 60, demand: 84, accessibility: 85}
+    - region: Delhi-NCR
+      drivers: {population: 75, income: 88, store_gap: 40, demand: 90, accessibility: 90}
+    - region: Telangana
+      drivers: {population: 55, income: 72, store_gap: 75, demand: 78, accessibility: 80}
+    - region: Gujarat
+      drivers: {population: 60, income: 74, store_gap: 70, demand: 72, accessibility: 82}
+financials:
+  market_size: 12.0
+  currency: USD bn TAM slice
+  margin_pct: 16
+  conservative:
+    expected_share_pct: 1.0
+    entry_investment: 0.15
+    annual_growth_pct: 8
+    price_index: 1.0
+  base:
+    expected_share_pct: 3.0
+    entry_investment: 0.22
+    annual_growth_pct: 16
+    price_index: 1.08
+  aggressive:
+    expected_share_pct: 4.5
+    entry_investment: 0.45
+    annual_growth_pct: 22
+    price_index: 1.1

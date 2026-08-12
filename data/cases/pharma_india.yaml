@@ -1,0 +1,135 @@
+slug: pharma-india-healthcare
+company: Apex Therapeutics (Hypothetical)
+industry: Healthcare
+target_market: India
+objective: Market Expansion
+key_question: Should Apex expand its specialty pharma portfolio deeper into India?
+assumptions:
+  data_vintage: "Illustrative 2024–2025 demo estimates"
+  note: "Hypothetical company; figures are directional for portfolio demonstration."
+market:
+  market_size_score: 90
+  growth_score: 86
+  competition_intensity: 70
+  demand_score: 88
+  underpenetrated:
+    - Tier-2/3 specialty distribution
+    - Chronic care adherence programs
+  rationales:
+    market_size: "Large and expanding pharmaceutical market with rising specialty spend."
+    growth: "Chronic disease burden and insurance/out-of-pocket mix support growth."
+    competition: "Intense generics competition; specialty niches less uniformly covered."
+    demand: "High unmet need in selected therapy areas."
+competitors:
+  - name: Sun Pharma
+    revenue_bn: 5.0
+    market_share_pct: 8
+    pricing_position: Broad
+    products: [Generics, Specialty]
+    geography: [India, Global]
+    customer_segment: Broad physician base
+    value_proposition: Scale + therapy breadth
+    strengths: [Distribution, Portfolio]
+    weaknesses: [Focus dilution]
+    x_innovation: 50
+    y_premium: 55
+  - name: Dr. Reddy's
+    revenue_bn: 3.0
+    market_share_pct: 5
+    pricing_position: Mid
+    products: [Generics, Biosimilars]
+    geography: [India, Global]
+    customer_segment: Value + Institutional
+    value_proposition: Affordable quality
+    strengths: [Cost, Complex generics]
+    weaknesses: [Premium branding]
+    x_innovation: 58
+    y_premium: 45
+  - name: Multinational specialty peer
+    revenue_bn: 4.0
+    market_share_pct: 4
+    pricing_position: Premium
+    products: [Specialty brands]
+    geography: [Metro India]
+    customer_segment: Premium / Specialist
+    value_proposition: Innovative therapies
+    strengths: [Clinical brand, KOL access]
+    weaknesses: [Price access, Reach beyond metros]
+    x_innovation: 80
+    y_premium: 88
+  - name: Regional generics player
+    revenue_bn: 0.6
+    market_share_pct: 3
+    pricing_position: Value
+    products: [Acute + chronic generics]
+    geography: [Regional India]
+    customer_segment: Value Seekers
+    value_proposition: Low-cost supply
+    strengths: [Price, Local relationships]
+    weaknesses: [Innovation, Specialty credibility]
+    x_innovation: 25
+    y_premium: 25
+competition_meta:
+  intensity_score: 70
+  whitespace_insight: "Specialty therapies with mid-premium access programs are less crowded than pure generics price competition."
+  recommended_positioning: "Specialty-led expansion with access/adherence partnerships — not broad generics war"
+segments:
+  - name: Premium Buyers
+    description: Metro patients / insured with specialist access
+    income_level: High
+    price_sensitivity: Low
+    brand_sensitivity: High
+    share_of_demand_pct: 22
+    attractiveness: 84
+  - name: Value Seekers
+    description: High price sensitivity; generics-first
+    income_level: Moderate
+    price_sensitivity: High
+    brand_sensitivity: Low
+    share_of_demand_pct: 50
+    attractiveness: 52
+  - name: Early Adopters
+    description: Specialists open to novel therapy protocols
+    income_level: Upper-mid
+    price_sensitivity: Medium
+    brand_sensitivity: High
+    share_of_demand_pct: 28
+    attractiveness: 87
+geography:
+  methodology_note: "Healthcare MAS weights population, disease burden, healthcare spend, and competitive gap."
+  weights:
+    population: 0.2
+    disease_burden: 0.25
+    healthcare_spend: 0.25
+    competition_gap: 0.2
+    accessibility: 0.1
+  regions:
+    - region: Maharashtra
+      drivers: {population: 85, disease_burden: 80, healthcare_spend: 88, competition_gap: 50, accessibility: 85}
+    - region: Tamil Nadu
+      drivers: {population: 70, disease_burden: 75, healthcare_spend: 82, competition_gap: 55, accessibility: 84}
+    - region: Uttar Pradesh
+      drivers: {population: 95, disease_burden: 90, healthcare_spend: 55, competition_gap: 75, accessibility: 60}
+    - region: Karnataka
+      drivers: {population: 65, disease_burden: 70, healthcare_spend: 80, competition_gap: 58, accessibility: 82}
+    - region: West Bengal
+      drivers: {population: 78, disease_burden: 82, healthcare_spend: 62, competition_gap: 68, accessibility: 70}
+financials:
+  market_size: 25.0
+  currency: USD bn TAM slice
+  margin_pct: 22
+  conservative:
+    expected_share_pct: 0.8
+    entry_investment: 0.12
+    annual_growth_pct: 7
+    price_index: 1.0
+  base:
+    expected_share_pct: 1.8
+    entry_investment: 0.22
+    annual_growth_pct: 13
+    price_index: 1.05
+  aggressive:
+    expected_share_pct: 3.2
+    entry_investment: 0.4
+    annual_growth_pct: 20
+    price_index: 1.1

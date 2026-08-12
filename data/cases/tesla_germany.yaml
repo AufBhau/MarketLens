@@ -1,0 +1,135 @@
+slug: tesla-germany-ev
+company: Tesla
+industry: Electric Vehicles
+target_market: Germany
+objective: Market Entry
+key_question: Should Tesla prioritize deeper penetration of the German EV market?
+assumptions:
+  data_vintage: "Illustrative 2024–2025 demo estimates"
+  note: "Figures are directional for portfolio demonstration, not client-grade research."
+market:
+  market_size_score: 85
+  growth_score: 80
+  competition_intensity: 78
+  demand_score: 82
+  underpenetrated:
+    - Mid-price volume EV
+    - Fleet / commercial light EV
+  rationales:
+    market_size: "One of Europe's largest auto markets with strong EV policy support."
+    growth: "EV mix rising, though growth normalizing after early surge."
+    competition: "High intensity from VW group, BMW, Mercedes, Hyundai/Kia, Chinese OEMs."
+    demand: "Strong consumer and regulatory pull for electrification."
+competitors:
+  - name: Volkswagen Group
+    revenue_bn: 320
+    market_share_pct: 22
+    pricing_position: Mid-Premium
+    products: [ID. series, Cupra, Audi EV]
+    geography: [Germany, Europe]
+    customer_segment: Mass to Premium
+    value_proposition: Scale + brand portfolio
+    strengths: [Manufacturing scale, Dealer network]
+    weaknesses: [Software perception]
+    x_innovation: 55
+    y_premium: 60
+  - name: BMW
+    revenue_bn: 155
+    market_share_pct: 12
+    pricing_position: Premium
+    products: [iX, i4, Neue Klasse]
+    geography: [Germany, Global]
+    customer_segment: Premium
+    value_proposition: Premium driving dynamics
+    strengths: [Brand, Engineering]
+    weaknesses: [Price ladder gaps at volume]
+    x_innovation: 70
+    y_premium: 85
+  - name: BYD / Chinese OEMs
+    revenue_bn: 80
+    market_share_pct: 8
+    pricing_position: Value-Mid
+    products: [SEAL, ATTO]
+    geography: [Europe expanding]
+    customer_segment: Value Seekers
+    value_proposition: Feature-rich value EVs
+    strengths: [Cost, Battery vertical integration]
+    weaknesses: [Brand trust in DE, Service network]
+    x_innovation: 68
+    y_premium: 35
+  - name: Mercedes-Benz
+    revenue_bn: 150
+    market_share_pct: 10
+    pricing_position: Premium
+    products: [EQE, EQS]
+    geography: [Germany, Global]
+    customer_segment: Premium Buyers
+    value_proposition: Luxury EV
+    strengths: [Brand, Residual value]
+    weaknesses: [Volume economics]
+    x_innovation: 62
+    y_premium: 90
+competition_meta:
+  intensity_score: 78
+  whitespace_insight: "Premium software-defined experience is crowded; clearer whitespace sits in disciplined mid-market volume with superior ownership economics."
+  recommended_positioning: "Innovation-led premium with selective mid-market SKUs — avoid pure price war"
+segments:
+  - name: Premium Buyers
+    description: High income, brand-sensitive, low price sensitivity
+    income_level: High
+    price_sensitivity: Low
+    brand_sensitivity: High
+    share_of_demand_pct: 30
+    attractiveness: 78
+  - name: Value Seekers
+    description: Feature-focused, high price sensitivity
+    income_level: Moderate
+    price_sensitivity: High
+    brand_sensitivity: Medium
+    share_of_demand_pct: 40
+    attractiveness: 70
+  - name: Early Adopters
+    description: Technology-focused, high willingness to experiment
+    income_level: Upper-mid
+    price_sensitivity: Medium
+    brand_sensitivity: High
+    share_of_demand_pct: 30
+    attractiveness: 88
+geography:
+  methodology_note: "Automotive MAS weights demand, income, charging access, and competitive density."
+  weights:
+    demand: 0.25
+    income: 0.2
+    charging: 0.25
+    competition_gap: 0.2
+    accessibility: 0.1
+  regions:
+    - region: Bavaria
+      drivers: {demand: 85, income: 90, charging: 80, competition_gap: 45, accessibility: 88}
+    - region: Baden-Württemberg
+      drivers: {demand: 82, income: 88, charging: 78, competition_gap: 40, accessibility: 86}
+    - region: North Rhine-Westphalia
+      drivers: {demand: 88, income: 80, charging: 75, competition_gap: 55, accessibility: 90}
+    - region: Berlin
+      drivers: {demand: 80, income: 78, charging: 85, competition_gap: 60, accessibility: 92}
+    - region: Saxony
+      drivers: {demand: 65, income: 62, charging: 60, competition_gap: 75, accessibility: 70}
+financials:
+  market_size: 55.0
+  currency: USD bn TAM slice
+  margin_pct: 14
+  conservative:
+    expected_share_pct: 1.5
+    entry_investment: 0.8
+    annual_growth_pct: 6
+    price_index: 1.0
+  base:
+    expected_share_pct: 3.0
+    entry_investment: 1.4
+    annual_growth_pct: 12
+    price_index: 1.0
+  aggressive:
+    expected_share_pct: 5.5
+    entry_investment: 2.2
+    annual_growth_pct: 18
+    price_index: 0.95

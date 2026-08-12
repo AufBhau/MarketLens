@@ -1,0 +1,1 @@
+"""MarketLens FastAPI application package."""
